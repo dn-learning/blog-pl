@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+permalink: /posts/
+eleventyNavigation:
+  key: Notatki
+  order: 2
+---
+
+<h1>Notatki</h1>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}

@@ -1,0 +1,14 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Start
+  order: 1
+---
+
+<h1>Ostatnie notatki</h1>
+
+{% set postslist = collections.posts | head(-5) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>Więcej notatek w <a href="{{ '/posts/' | url }}">notatniku</a>.</p>

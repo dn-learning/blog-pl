@@ -1,0 +1,15 @@
+{
+  "title": "The DN-Learning Blog",
+  "url": "https://dn-learning.github.io/",
+  "description": "Blog / Dziennik z notatkami IT",
+  "feed": {
+    "subtitle": "Blog / Dziennik z notatkami IT",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://myurl.com/"
+  },
+  "author": {
+    "name": "Damian Nowak",
+    "email": ""
+  }
+}
